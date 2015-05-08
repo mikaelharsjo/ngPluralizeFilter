@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>ng-pluralize-filter by mikaelharsjo</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/mikaelharsjo/ngPluralizeFilter">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/mikaelharsjo/ngPluralizeFilter/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/mikaelharsjo/ngPluralizeFilter/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>ng-pluralize-filter</h1>
+          <p>Angular filter that transforms english nouns into its plural form</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/mikaelharsjo">mikaelharsjo</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>
+<a id="ngpluralizefilter" class="anchor" href="#ngpluralizefilter" aria-hidden="true"><span class="octicon octicon-link"></span></a>ngPluralizeFilter</h1>
+
+<p><a href="https://travis-ci.org/mbenford/ngTagsInput"><img src="https://img.shields.io/travis/mbenford/ngTagsInput.svg?style=flat" alt="Travis"></a></p>
+
+<p>Angular filter that transforms english nouns into its plural form.</p>
+
+<ul>
+<li>vogon -&gt; vogons</li>
+<li>person -&gt; people</li>
+<li>ox -&gt; oxen</li>
+<li>cherry -&gt; cherries</li>
+</ul>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<div class="highlight highlight-bash"><pre>bower install ng-pluralize-filter --save</pre></div>
+
+<h2>
+<a id="example-usage" class="anchor" href="#example-usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example usage</h2>
+
+<div class="highlight highlight-html"><pre>&lt;<span class="pl-ent">html</span> <span class="pl-e">ng-app</span>=<span class="pl-s"><span class="pl-pds">'</span>app<span class="pl-pds">'</span></span>&gt;
+&lt;<span class="pl-ent">head</span>&gt;
+<span class="pl-s1">  &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>bower_components/angular/angular.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span>
+<span class="pl-s1">  &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>bower_components/ng-pluralize-filter/ng-pluralize-filter.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span>
+<span class="pl-s1">  &lt;<span class="pl-ent">script</span>&gt;</span>
+<span class="pl-s1">    angular.module(<span class="pl-s"><span class="pl-pds">'</span>app<span class="pl-pds">'</span></span>, [<span class="pl-s"><span class="pl-pds">'</span>ngPluralizeFilter<span class="pl-pds">'</span></span>]);</span>
+<span class="pl-s1">  &lt;/<span class="pl-ent">script</span>&gt;</span>
+&lt;/<span class="pl-ent">head</span>&gt;
+&lt;<span class="pl-ent">body</span>&gt;{{'cat' | pluralize}}&lt;/<span class="pl-ent">body</span>&gt;
+&lt;/<span class="pl-ent">html</span>&gt;</pre></div>
+
+<h2>
+<a id="contributing" class="anchor" href="#contributing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributing</h2>
+
+<div class="highlight highlight-bash"><pre>npm install
+bower install
+gulp</pre></div>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
