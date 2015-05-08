@@ -6,6 +6,13 @@
   ],
   "description": "Angular filter that transforms english nouns into its plural form",
   "main": "ng-pluralize-filter.js",
+  "ignore": [
+    "gulpfile.js",
+    "karma.conf.js",
+    "**/*.spec.js",
+    "package.json",
+    "travis.yml"
+  ],
   "keywords": [
     "plural",
     "pluralize",
