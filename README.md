@@ -11,7 +11,6 @@ Angular filter that transforms english nouns into its plural form.
 
 ## Example usage
 ```html
-<!DOCTYPE html>
 <html ng-app='app'>
 <head>
   <script src="bower_components/angular/angular.js"></script>
