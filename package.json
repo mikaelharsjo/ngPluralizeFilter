@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/mikaelharsjo/ngPluralizeFilter",
   "devDependencies": {
+    "bower": "^1.4.1",
     "gulp": "^3.8.11",
     "jasmine-core": "^2.3.2",
     "karma": "^0.12.31",
