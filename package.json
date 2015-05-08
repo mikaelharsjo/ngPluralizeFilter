@@ -4,7 +4,8 @@
   "description": "Angular filter that transforms english nouns into its plural form",
   "main": "ng-pluralize-filter.js",
   "scripts": {
-    "test": "gulp"
+    "test": "gulp",
+    "postinstall": "bower install"
   },
   "repository": {
     "type": "git",
