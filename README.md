@@ -8,6 +8,10 @@ Angular filter that transforms english nouns into its plural form.
 * ox -> oxen
 * cherry -> cherries
 
+## Installation
+```bash
+bower install ng-pluralize-filter --save
+```
 
 ## Example usage
 ```html
