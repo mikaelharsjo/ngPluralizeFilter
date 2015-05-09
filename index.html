@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html ng-app="demo">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="javascripts/respond.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/ng-pluralize-filter/ng-pluralize-filter.js"></script>
+    <script>
+      angular.module('demo', ['ngPluralizeFilter']);
+    </script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -43,17 +48,41 @@
 
 <p><a href="https://travis-ci.org/mbenford/ngTagsInput"><img src="https://img.shields.io/travis/mbenford/ngTagsInput.svg?style=flat" alt="Travis"></a></p>
 
-<p>Angular filter that transforms english nouns into its plural form.</p>
+<p>Angular filter that transforms english nouns into its plural form and nothing else. Inspired by <a href="http://code.google.com/p/inflection-js/">inflection-js</a> and the original Inflector class in <a href="https://github.com/rails/rails">Ruby on Rails</a> ActiveSupport.</p>
 
-<ul>
-<li>vogon -&gt; vogons</li>
-<li>person -&gt; people</li>
-<li>ox -&gt; oxen</li>
-<li>cherry -&gt; cherries</li>
-</ul>
+<div>
+  <h2>Demo</h2>
+  <p>Type (almost) any noun and it will be transformed into plural.</p>
+  <label>Singular:</label>
+  <input type="text" ng-model="noun" placeholder="cat"> Plural: <strong>{{noun | pluralize}}</strong>
+</div>
+<br>
 
-<h2>
-<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
+<h3>Other examples</h3>
+<table style="width: 50%;">
+  <tr>
+    <td>vogon</td>
+    <td>&rarr;</td>
+    <td>vogons</td>
+  </tr>
+  <tr>
+    <td>person</td>
+    <td>&rarr;</td>
+    <td>people</td>
+  </tr>
+  <tr>
+    <td>ox</td>
+    <td>&rarr;</td>
+    <td>oxen</td>
+  </tr>
+  <tr>
+    <td>cherry</td>
+    <td>&rarr;</td>
+    <td>cherries</td>
+  </tr>
+</table>
+
+<h2><a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
 
 <div class="highlight highlight-bash"><pre>bower install ng-pluralize-filter --save</pre></div>
 
@@ -81,6 +110,6 @@ gulp</pre></div>
 
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
+
   </body>
 </html>
