@@ -14,6 +14,8 @@
     "travis.yml"
   ],
   "keywords": [
+    "pluralise",
+    "ngpluralizefilter",
     "plural",
     "pluralize",
     "angular",
