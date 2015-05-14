@@ -1,6 +1,6 @@
 # ngPluralizeFilter
 
-[![Travis](https://img.shields.io/travis/mikaelharsjo/ngPluralizeFilter.svg?style=flat)](https://travis-ci.org/mikaelharsjo/ngPluralizeFilter)
+[![Travis](https://img.shields.io/travis/mikaelharsjo/ngPluralizeFilter.svg?style=flat-square)](https://travis-ci.org/mikaelharsjo/ngPluralizeFilter)
 
 Angular filter that transforms english nouns into its plural form.
 * vogon -> vogons
