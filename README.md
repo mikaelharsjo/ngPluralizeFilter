@@ -33,3 +33,6 @@ npm install
 bower install
 gulp
 ```
+
+## Todo
+This is a work in progress in terms of handling pluralisation edge cases. If you find any just create an issue or pull request. Thank you.
