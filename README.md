@@ -15,7 +15,7 @@ bower install ng-pluralize-filter --save
 
 ## Example usage
 ```html
-<html ng-app='app'>
+<html ng-app="app">
 <head>
   <script src="bower_components/angular/angular.js"></script>
   <script src="bower_components/ng-pluralize-filter/ng-pluralize-filter.js"></script>
