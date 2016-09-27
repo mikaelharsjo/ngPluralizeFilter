@@ -99,7 +99,7 @@ describe('pluralize', function() {
    it('handles other irregular plurals', function () {
      expect(pluralize('ox')).toBe('oxen');
      expect(pluralize('person')).toBe('people');
-     expect(pluralize('octopus')).toBe('octopusses');
+     expect(pluralize('octopus')).toBe('octopuses');
    });
  });
 });

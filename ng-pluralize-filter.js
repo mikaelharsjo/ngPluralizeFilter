@@ -11,7 +11,7 @@ angular.module('ngPluralizeFilter', []).filter('pluralize', function() {
     if (typeof noun !== 'string') { return noun; }
 
     var rules = [
-      {regex: /octopus/gi, suffix: 'octopusses'},
+      {regex: /octopus/gi, suffix: 'octopuses'},
       {regex: /person/gi, suffix: 'people'},
       {regex: /ox/gi, suffix: 'oxen'},
       {regex: /bison|buffalo|deer|duck|fish|moose|pike|plankton|salmon|sheep|squid|swine|trout|sheap|equipment|information|rice|money|species|series|news/i, suffix: '$&'}, // bison -> bison
@@ -24,7 +24,7 @@ angular.module('ngPluralizeFilter', []).filter('pluralize', function() {
       {regex: /$/gi, suffix: 's'} // cat -> cats
     ];
 
-    for (var i=0; i < rules.length; i++) {
+    for (var i = 0; i < rules.length; i++) {
       var rule = rules[i];
       if (noun.match(rule.regex)) {
          noun = noun.replace(rule.regex, rule.suffix);
