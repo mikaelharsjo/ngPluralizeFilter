@@ -14,6 +14,8 @@ angular.module('ngPluralizeFilter', []).filter('pluralize', function() {
       {regex: /octopus/gi, suffix: 'octopusses'},
       {regex: /person/gi, suffix: 'people'},
       {regex: /ox/gi, suffix: 'oxen'},
+      {regex: /goose/gi, suffix: 'geese'},
+      {regex: /mouse/gi, suffix: 'mice'},
       {regex: /bison|buffalo|deer|duck|fish|moose|pike|plankton|salmon|sheep|squid|swine|trout|sheap|equipment|information|rice|money|species|series|news/i, suffix: '$&'}, // bison -> bison
       {regex: /(x|ch|ss|sh)$/gi, suffix: '$1es'}, // dish -> dishes, kiss -> kisses
       {regex: /(hetero|canto|photo|zero|piano|pro|kimono|portico|quarto)$/gi, suffix: '$1s'}, // kimono -> kimonos
