@@ -1,8 +1,9 @@
 {
   "name": "ng-pluralize-filter",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "authors": [
-    "Mikael Härsjö <mikael.harsjo@gmail.com>"
+    "Mikael Härsjö <mikael.harsjo@gmail.com>",
+    "Brant Wellons"
   ],
   "description": "Angular filter that transforms english nouns into its plural form",
   "main": "ng-pluralize-filter.js",

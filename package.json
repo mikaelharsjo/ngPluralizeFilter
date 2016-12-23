@@ -1,7 +1,7 @@
 {
   "name": "ngPluralizeFilter",
-  "version": "1.1.0",
-  "description": "Angular filter that transforms english nouns into its plural form. Originally built by mikaelharsjo, picked up by bdwellons",
+  "version": "1.0.2",
+  "description": "Angular filter that transforms english nouns into its plural form.",
   "main": "ng-pluralize-filter.js",
   "scripts": {
     "test": "gulp test"
@@ -17,7 +17,7 @@
     "noun",
     "english"
   ],
-  "author": "Brant Wellons",
+  "author": "Mikael Härsjö",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mikaelharsjo/ngPluralizeFilter/issues"
