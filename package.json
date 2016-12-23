@@ -1,14 +1,14 @@
 {
   "name": "ngPluralizeFilter",
-  "version": "1.0.0",
-  "description": "Angular filter that transforms english nouns into its plural form",
+  "version": "1.1.0",
+  "description": "Angular filter that transforms english nouns into its plural form. Originally built by mikaelharsjo, picked up by bdwellons",
   "main": "ng-pluralize-filter.js",
   "scripts": {
     "test": "gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mikaelharsjo/ngPluralizeFilter.git"
+    "url": "https://github.com/bdwellons/ngPluralizeFilter.git"
   },
   "keywords": [
     "angular",
@@ -17,18 +17,18 @@
     "noun",
     "english"
   ],
-  "author": "Mikael Härsjö",
+  "author": "Brant Wellons",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mikaelharsjo/ngPluralizeFilter/issues"
   },
   "homepage": "https://github.com/mikaelharsjo/ngPluralizeFilter",
   "devDependencies": {
-    "bower": "^1.4.1",
-    "gulp": "^3.8.11",
-    "jasmine-core": "^2.3.2",
-    "karma": "^0.12.31",
-    "karma-jasmine": "^0.3.5",
-    "karma-phantomjs-launcher": "^0.1.4"
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.2"
   }
 }

@@ -100,6 +100,8 @@ describe('pluralize', function() {
      expect(pluralize('ox')).toBe('oxen');
      expect(pluralize('person')).toBe('people');
      expect(pluralize('octopus')).toBe('octopuses');
+     expect(pluralize('goose')).toBe('geese');
+     expect(pluralize('mouse')).toBe('mice');
    });
  });
 });
